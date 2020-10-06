@@ -10,7 +10,8 @@ namespace Layout.Controllers
     {
         public IActionResult MyPurchases()
         {
-            return View("MyPurchases");
+            ViewData["Is_Purchase"] = "menu_hili";
+            return View();
         }
     }
 }

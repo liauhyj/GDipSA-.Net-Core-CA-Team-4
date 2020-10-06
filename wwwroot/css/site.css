@@ -11,7 +11,10 @@ a.navbar-brand {
 a {
   color: #0366d6;
 }
-
+/* below is to be bold when menu is selected*/
+.menu_hili{
+    font-weight:bold;
+}
 .btn-primary {
   color: #fff;
   background-color: #1b6ec2;

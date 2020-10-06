@@ -21,13 +21,13 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link text-dark @ViewData["Is_Product"]" asp-area="" asp-controller="Home" asp-action="Index">Products</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Cart">Cart</a>
+                            <a class="nav-link text-dark @ViewData["Is_Cart"]" asp-area="" asp-controller="Cart" asp-action="Cart">Cart</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="MyPurchases" asp-action="MyPurchases">MyPurchases</a>
+                            <a class="nav-link text-dark @ViewData["Is_Purchase"]" asp-area="" asp-controller="MyPurchases" asp-action="MyPurchases">MyPurchases</a>
                         </li>
 
                         <form style="margin-left:60px;line-height:50px;" class="navbar-form navbar-left" action="/Home/Search" method="post">
@@ -43,8 +43,8 @@
 
 
 
-                        <li><a href="/Home/Login" style="margin-left:300px;line-height:30px;">Login</a></li>
-                        <li><a href="/Home/Login" style="margin-left:30px;line-height:30px;">Signin</a></li>
+                        <li><a  class="nav-link text-dark @ViewData["Is_Login"]" asp-controller="Login" asp-action="Login" style="margin-left:300px;line-height:30px;">Login</a></li>
+                        
                     </ul>
                 </div>
             </div>

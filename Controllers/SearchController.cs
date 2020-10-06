@@ -8,7 +8,8 @@ namespace Layout.Controllers
 {
     public class SearchController : Controller
     {
-        public IActionResult Index()
+        [HttpPost]
+        public IActionResult Search(string keyword)
         {
             return View();
         }

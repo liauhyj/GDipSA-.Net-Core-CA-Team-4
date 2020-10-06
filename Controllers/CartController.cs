@@ -8,8 +8,9 @@ namespace Layout.Controllers
 {
     public class CartController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Cart()
         {
+            ViewData["Is_Cart"] = "menu_hili";
             return View();
         }
     }

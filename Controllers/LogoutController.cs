@@ -8,7 +8,7 @@ namespace Layout.Controllers
 {
     public class LogoutController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Logout()
         {
             return View();
         }

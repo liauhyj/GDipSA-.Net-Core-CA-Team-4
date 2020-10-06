@@ -8,8 +8,9 @@ namespace Layout.Controllers
 {
     public class LoginController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Login()
         {
+            ViewData["Is_login"] = "menu_hili";
             return View();
         }
     }
