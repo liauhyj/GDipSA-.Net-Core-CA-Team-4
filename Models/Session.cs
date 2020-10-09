@@ -8,6 +8,7 @@ namespace Layout.Models
 {
     public class Session
     {
+        public static Cart Cart { get; internal set; }
         [Required]
         [MaxLength(36)]
         public string Id { get; set; }
