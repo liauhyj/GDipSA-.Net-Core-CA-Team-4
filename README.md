@@ -7,7 +7,7 @@ The objective of this CA is to create a shopping cart page.
 Jon's Branch is the branch where I did most of my work.
 I also worked on the master branch.
 
-# An overview of what I did for this project
+## An overview of what I did for this project
 
 1) Coded 4 out of the 6 controllers (i.e. all controllers except Checkout Controller and MyPurchasesController
 2) Created and seeded the database in the Db folder.
