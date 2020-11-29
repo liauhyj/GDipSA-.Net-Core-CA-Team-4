@@ -1,4 +1,4 @@
-# GDipSA-.Net-Core-CA-Team-4
+# GDipSA .Net Core-CA Team 4
 
 This is Team 4's submission for one of the CAs we were assigned as part of our coursework in the GDipSA programme.
 
