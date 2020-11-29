@@ -2,10 +2,15 @@
 
 This is Team 4's submission for one of the CAs we were assigned as part of our coursework in the GDipSA programme.
 
-The objective of this CA is to create a shopping cart page.
+In order to run the code smoothly, please change the server name "DbConn": "Server=(local);Database=Software4You;Trusted_Connection=True;" in appsettings.json.
 
-Jon's Branch is the branch where I did most of my work.
+Jon's Branch is the branch where I did my work.
+
 I also worked on the master branch.
+
+## Brief Description of the CA
+
+The objective of this CA is to create a shopping cart page.
 
 ## An overview of what I did for this project
 
