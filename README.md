@@ -12,6 +12,8 @@ I also worked on the master branch.
 
 The objective of this CA is to create a shopping cart page.
 
+For more information on the requirements/deliverables for the CA, please refer to CA_Project_Specs_revised.docx.
+
 ## An overview of what I did for this project
 
 1) Coded 4 out of the 6 controllers (i.e. all controllers except Checkout Controller and MyPurchasesController
