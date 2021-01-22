@@ -21,4 +21,4 @@ For more information on the requirements/deliverables for the CA, please refer t
 3) Coded everything in the Middleware folder.
 4) Did most of the .cs files in the Model folder. (i.e all except ActivationKey, AtvKeyInput, Purchase, PurchaseDetail and PurGroupedByPdt)
 5) Did the product.data in the SeedDate folder.
-6) Did the razor code and html layout(without images and beautification) for Index.cshtml for Cart, Home, Login folders and _Layout.cshtml in the Shared fodler.
+6) Did the razor code and html layout(without images and beautification) for Index.cshtml for Cart, Home, Login folders and _Layout.cshtml in the Shared folder.
